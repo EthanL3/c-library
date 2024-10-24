@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "ec440threads.h": "c",
+        "pthread.h": "c"
+    }
+}
