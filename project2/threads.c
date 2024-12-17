@@ -115,6 +115,6 @@ void schedule() {
             current_thread = (current_thread + 1) % 128;
         } while (thread_table[current_thread].status != 0);
         thread_table[current_thread].status = 1;
-        longjmp(thread_table[current_thread].context, 1);
+        longjmp(thread_table[current_thread].context, 1)d;
     }
 }
